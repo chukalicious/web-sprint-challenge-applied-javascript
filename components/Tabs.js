@@ -27,8 +27,8 @@ function tabs(data) {
 
 axios.get('https://lambda-times-backend.herokuapp.com/topics')
     .then((successResponse) => {
-        console.log(successResponse.data);
-        successResponse.data.topics.forEach((topic) => console.log(topic));
+        /* console.log(successResponse.data);
+        successResponse.data.topics.forEach((topic) => console.log(topic)); */
         successResponse.data.topics.forEach((topic) => tabs(topic))
     })
     .catch((error) => {
