@@ -11,4 +11,24 @@
 // Use your function to create a header
 // and append it to the DOM inside the div.header-container
 
-function Header() {}
+function Header() {
+    // create all your elements
+    //goes in .header-container
+        
+
+
+    // add your appropriate classes to the correct elements
+
+
+
+    // add your appropriate text content
+
+
+
+
+    // append your elements correctly 
+
+
+    // return your card 
+    return header
+}
