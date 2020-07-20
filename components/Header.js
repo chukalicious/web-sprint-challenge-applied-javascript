@@ -23,7 +23,7 @@ function Header() {
 
 
     // add your appropriate classes to the correct elements
-    header.classList.add('.header'); 
+    header.classList.add('header'); 
     date.classList.add('date'); 
     temp.classList.add('temp'); 
 
