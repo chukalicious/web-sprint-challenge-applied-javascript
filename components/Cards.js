@@ -35,15 +35,15 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
             cardsContainer.appendChild(card(item));
         })
         console.log(response) */
-        const objectProperties = [
+        const properties = [
             response.data.articles.javascript, 
             response.data.articles.bootstrap, 
             response.data.articles.jquery, 
             response.data.articles.node, 
             response.data.articles.technology,
         ]
-        console.log(objectProperties); 
-        objectProperties.forEach((currentItem) => {
+        console.log(properties); 
+        properties.forEach((currentItem) => {
             console.log(currentItem);
             currentItem.forEach(currentObject => {
                 cardsContainer.appendChild(card(currentObject)); 
