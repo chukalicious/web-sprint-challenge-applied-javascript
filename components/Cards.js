@@ -43,10 +43,10 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
             response.data.articles.technology,
         ]
         console.log(properties); 
-        properties.forEach((currentItem) => {
-            console.log(currentItem);
-            currentItem.forEach(currentObject => {
-                cardsContainer.appendChild(card(currentObject)); 
+        properties.forEach((item) => {
+            console.log(item);
+            item.forEach(nextItem => {
+                cardsContainer.appendChild(card(nextItem)); 
             }) 
         })
         
